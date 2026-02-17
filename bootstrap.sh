@@ -93,7 +93,3 @@ IP_ADDR=$(hostname -I | awk '{print $1}')
 echo "-------------------------------------------------------"
 echo "✅ BOOTSTRAP COMPLETE!"
 echo "-------------------------------------------------------"
-echo "1. Log out: 'exit'"
-echo "2. Log in: 'ssh $USER@$IP_ADDR'"
-echo "3. Run: 'server-start'"
-echo "-------------------------------------------------------"
