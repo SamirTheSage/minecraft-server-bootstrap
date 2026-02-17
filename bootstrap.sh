@@ -89,7 +89,7 @@ server-restore() {
 EOF
 
 # 7. Final Instructions
-IP_ADDR=\$(hostname -I | awk '{print \$1}')
+IP_ADDR=$(hostname -I | awk '{print $1}')
 echo "-------------------------------------------------------"
 echo "✅ BOOTSTRAP COMPLETE!"
 echo "-------------------------------------------------------"
